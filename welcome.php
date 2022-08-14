@@ -1,7 +1,7 @@
 <?php  
  
 if(isset($_POST['submit'])) {
- $mailto = "http://formspree.io/laurynsrad93@outlook.com";  //My email address
+ $mailto = "https://formspree.io/f/xqkjklgb";  //My email address
  //getting customer data
  $name = $_POST['name']; //getting customer name
  $fromEmail = $_POST['email']; //getting customer email
