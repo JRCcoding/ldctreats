@@ -73,7 +73,8 @@ nav {
 }
   #spacer {height: 150px;}
 
-#welcome b {
+#welcome p {
+    margin-top: 3%;
     font-size: 26px;
     width: 100%;
 }
