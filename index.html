@@ -10,7 +10,8 @@
     <script src="index.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=DynaPuff&family=Kanit:wght@600&family=Permanent+Marker&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Dancing+Script:wght@600&family=Kanit:wght@600&family=Permanent+Marker&display=swap" rel="stylesheet"> 
         <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <!-- JavaScript Bundle with Popper -->
@@ -58,8 +59,10 @@
 
 
     <div id="main">
-        <h1>LNC</h1><h6>Sweet and Savory Treats</h6>
-        <br><section id="welcome"><p><b><u>Lauryn's Next-Door Cottage</u></b> is how I can make use of my years of self taught bakery
+        <div id="nametitle">
+          <h1>L</h1><p>auryn's</p><h1>N</h1><p id="ext">ext</p>-<p>door</p><h1>C</h1><p>ottage</p>
+        </div><h6>Sweet and Savory Treats</h6>
+        <br><section id="welcome"><p>Lauryn's Next-door Cottage is how I can make use of my years of self taught bakery
           and cooking and get it out to the world! I am always working on new things, so keep an eye here for anything new!
         </p></section>
         <section id="contactnowcontainer"><button type="button" id="contactnow" data-bs-toggle="modal" data-bs-target="#contactModal">Contact me now!</button></section>
@@ -68,15 +71,13 @@
 <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="contactModalLabel">Modal title</h5>
-        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+      
+        <button id="close" type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">close</span>
         </button>
-      </div>
       <div class="modal-body">
         
-        <form id="contact" action="https://formspree.io/f/xqkjklgb" method="post">
+        <form id="contact" action="https://formspree.io/f/maykyddr" method="post">
           <h3>Quick Contact</h3>
           <h4>Contact us today, and get reply with in 24 hours!</h4>
      
@@ -100,13 +101,10 @@
              <p class="failed"> <?php echo $failed;  ?></p>
           </div>
           <fieldset>
-            <button type="submit" name="submit" id="contact-submit" data-submit="...Sending" data-bs-dismiss="modal">Submit Now</button>
+            <button type="submit" name="submit" id="contact-submit" data-submit="...Sending">Submit Now</button>
           </fieldset>
         </form>
       
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
