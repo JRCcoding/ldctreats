@@ -10,6 +10,13 @@ html {scroll-behavior: smooth;}
 nav {
     background-color: #d289d6;
     background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
+    position: fixed;
+    top: 0;
+}
+.navdiv {position: sticky; top: 0;}
+.navbar {
+    position: fixed;
+    top: 0;
 }
 .nav-link {
     text-align: right;
@@ -26,6 +33,7 @@ nav {
     height: auto;
     width: 100px;
     filter: drop-shadow(15px 15px 4px rgb(209, 150, 211, .6));
+
 }
 
 
@@ -93,6 +101,12 @@ nav {
     filter: drop-shadow(10px 5px 6px rgba(255, 151, 241, 0.5));
     font-family: 'Anton', sans-serif;
     color: white;
+}
+
+#menu {
+    width: 90%;
+    height: auto;
+    margin: 5%;
 }
 
 
