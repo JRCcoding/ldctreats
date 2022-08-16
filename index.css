@@ -3,7 +3,7 @@ body {
     background-color: #fedcff;
     margin: 0;
 }
-html {scroll-behavior: smooth;}
+html {scroll-behavior: smooth;background-color:#bb5fc0;}
 
 
 nav {
@@ -11,15 +11,30 @@ nav {
     background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
     position: fixed;
     top: 0;
+    width: 100%;
 }
-.navdiv {position: sticky; top: 0;}
+.navdiv {position: sticky; top: 0;z-index:99999;width:100%;}
 .navbar {
     position: fixed;
     top: 0;
+    width: 100%;
 }
 .nav-link {
     text-align: right;
 }
+@media (min-width: 960px) {
+    .navbar {
+        font-size: 30px;
+    }
+    .nav-link {
+        background-color:rgba(139, 32, 122, 0.2);
+    }
+    .nav-item {
+        height: 100%;
+        border-right: 1px solid rgba(139, 32, 122, 0.4);
+        border-left: 1px solid rgba(139, 32, 122, 0.4);
+    }
+} 
 .navbar-toggler.toggler-example {
     cursor: pointer;
 }
@@ -49,14 +64,17 @@ nav {
 }
 
 #main {
-    /* margin-top: 40%; */
     background-image: url("images/foodcropped.png");
     background-repeat: no-repeat;
     background-size: auto 100%;
     height: 1000px;
     background-attachment: fixed;
-    /* background-size: 100% 100%; USE THIS FOR DESKTOP VERSION!!!!!!!!*/
     color: white;
+}
+@media (min-width: 960px) {
+    #main {
+        background-size: 100% auto;
+    }
 }
 
 
@@ -146,7 +164,24 @@ nav {
 
 
 #latesttitle {
-    padding-top: 25%;
+    padding-top: 20%;
+}
+@media (min-width: 960px) {
+    #latesttitle {
+        padding-top: 20%;
+    }
+    #latest {
+        overflow: hidden;
+        height: auto;
+        width: 100%;
+        background-color:#d196d3;
+        display: flex;
+        flex-direction: row;
+    }
+    #latest img {
+        height: 500px;
+        width: 500px;
+    }
 }
 
 #latestimg {
@@ -156,7 +191,6 @@ nav {
     border: 8px solid #d289d6;
     background-color: #d196d3;
     filter: drop-shadow(0 8px 4px rgb(109, 61, 101));
-}
 
 #footer a {
     text-decoration: none;
@@ -316,4 +350,22 @@ nav {
 
   .link {
     text-decoration: none; color: white; font-weight: bold;
+  }
+
+
+
+
+
+/* #carouselExampleControls {
+    height: 500px;
+    width: auto;
+} */
+
+#flexattempt {
+    display: flex;
+    flex-direction: row;
+    
+}
+.carousel-inner img {
+    margin: auto;
   }
