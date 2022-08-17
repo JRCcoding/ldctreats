@@ -108,7 +108,12 @@ nav {
     background-color:rgba(139, 32, 122, 0.8);
     text-align: left;
     padding: 2% 8%;
+}
+@media (min-width: 700px) {
+    #welcome {
+        
     margin: 8% 20%;
+    }
 }
   #spacer {height: 150px;}
 
