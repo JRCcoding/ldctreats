@@ -144,7 +144,7 @@ nav {
     #menu {
         height: 90%;
         width: auto;
-        margin: auto 0 0 35%;
+        margin: auto 0 5% 33%;
 
     }
 }
@@ -191,7 +191,7 @@ nav {
 }
 @media (min-width: 960px) {
     #latesttitle {
-        padding-top: 5%;
+        padding-top: 0;
     }
     #latest {
         overflow: hidden;
