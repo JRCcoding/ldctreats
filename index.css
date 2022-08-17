@@ -108,7 +108,7 @@ nav {
     background-color:rgba(139, 32, 122, 0.8);
     text-align: left;
     padding: 2% 8%;
-    margin-top: 8%;
+    margin: 8% 20%;
 }
   #spacer {height: 150px;}
 
@@ -375,7 +375,18 @@ nav {
     text-decoration: none; color: white; font-weight: bold;
   }
 
-
+.carousel-item {
+    height: 600px;
+    width: 600px;
+}
+.carousel-inner > .item > img {
+    width:640px;
+    height:360px;
+  }
+  #d-block {
+    height: 600px;
+    width: 600px;
+  }
 
 
 
