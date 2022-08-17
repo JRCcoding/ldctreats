@@ -4,7 +4,8 @@ body {
     margin: 0;
     overflow-x: hidden;
 }
-html {scroll-behavior: smooth;background-color:#bb5fc0;}
+html {scroll-behavior: smooth;background-color: #d289d6;
+    background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");}
 
 
 nav {
@@ -23,7 +24,7 @@ nav {
 .nav-link {
     text-align: right;
 }
-@media (min-width: 960px) {
+@media (min-width: 800px) {
     .navbar {
         font-size: 30px;
     }
@@ -34,8 +35,7 @@ nav {
         height: 100%;
         border-right: 1px solid rgba(139, 32, 122, 0.4);
         border-left: 1px solid rgba(139, 32, 122, 0.4);
-    }
-    
+    } 
 } 
 .navbar-toggler.toggler-example {
     cursor: pointer;
@@ -78,6 +78,17 @@ nav {
     #main {
         background-size: 100% auto;
     }
+    #nametitle {
+        transform: scale(2.0);
+        padding-bottom: 5%;
+        margin-top: -10%;
+    }
+    #main h6 {
+        transform: scale(2.0);
+        padding-bottom: 2%;
+        padding-left: 2%;
+    }
+    
 }
 
 
@@ -129,6 +140,14 @@ nav {
     height: auto;
     margin: 5%;
 }
+@media (min-width: 700px) {
+    #menu {
+        height: 90%;
+        width: auto;
+        margin: auto 0 0 35%;
+
+    }
+}
 
 
 
@@ -172,7 +191,7 @@ nav {
 }
 @media (min-width: 960px) {
     #latesttitle {
-        padding-top: 15%;
+        padding-top: 5%;
     }
     #latest {
         overflow: hidden;
