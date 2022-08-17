@@ -380,18 +380,11 @@ nav {
     text-decoration: none; color: white; font-weight: bold;
   }
 
-.carousel-item {
-    height: 600px;
-    width: 600px;
-}
-.carousel-inner > .item > img {
-    width:640px;
-    height:360px;
-  }
-  #d-block {
-    height: 600px;
-    width: 600px;
-  }
-
+/* .item {
+    object-fit: cover;
+    object-position: center;
+    height: 50vh;
+    overflow: hidden;
+} */
 
 
