@@ -1,12 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@600&family=Kanit:wght@600&family=Lobster&family=Permanent+Marker&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+html {
+    scroll-behavior: smooth;background-color: #d289d6;
+    background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
+}
+
 body {
     background-color: #fedcff;
     margin: 0;
-    overflow-x: hidden;
 }
-html {scroll-behavior: smooth;background-color: #d289d6;
-    background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");}
+
+/* TESTING FOR BACKGROUND RESIZING ON MOBILE*/
+.wrapper {
+    position: absolute;
+    top: 0.5px;
+    left: 0;
+    right: 0;
+    bottom: 0.5px;
+    overflow-x: hidden; /* or any other value */
+    overflow-y: auto; /* or any other value */
+}
 
 
 nav {
@@ -68,6 +82,8 @@ nav {
     text-decoration: underline wavy;
 }
 
+
+
 #main {
     background-image: url("images/foodcropped.png");
     background-repeat: no-repeat;
@@ -104,6 +120,10 @@ nav {
     font-size: 20px;
     /* background-color: #e1a1e4; */
     font-family: 'DynaPuff', cursive;
+}
+
+#construction {
+    text-align: center;
 }
 
 #welcome {
