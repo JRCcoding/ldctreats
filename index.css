@@ -19,7 +19,7 @@ body {
     right: 0;
     bottom: 0.5px;
     overflow-x: hidden; /* or any other value */
-    overflow-y: auto; /* or any other value */
+     /* or any other value */
 }
 
 
@@ -135,17 +135,21 @@ nav {
     padding: 2% 2%;
     border-radius: 15px;
 }
+
 @media (min-width: 700px) {
     #welcome {
         
     margin: 8% 20%;
+    }
+    #welcome p {
+        font-size: 35px;
     }
 }
   #spacer {height: 150px;}
 
 #welcome p {
     margin-top: 3%;
-    font-size: 26px;
+    font-size: 20px;
     width: 100%;
 }
 
@@ -166,6 +170,9 @@ nav {
 }
 @media (min-width: 600px) {#contactnow {font-size:35px}}
 
+#contact-submit {
+    margin-left: 75%;
+}
 #menu {
     width: 90%;
     height: auto;
@@ -185,7 +192,14 @@ nav {
 
 
 
-
+#flexattempt {
+    padding-top: 25%;
+}
+@media (min-width: 800px) {
+    #flexattempt {
+        padding-top: 5%;
+    }
+}
 
 .modal {
     text-align: center;
@@ -396,12 +410,20 @@ nav {
 
   
 
-
+a {
+    text-decoration: none!important;
+}
 
 
 .link {
-    text-decoration: none; color: white; font-weight: bold;
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold;
   }
+
+.smlink {
+    text-align: center;
+}
 
 /* .item {
     object-fit: cover;
