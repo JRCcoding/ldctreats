@@ -69,7 +69,16 @@ nav {
 
 }
 
+#main h5 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
+@media (min-width: 600px) {
+    #main h5 {
+        margin-left: 33%;
+    }
+}
 
 #nametitle {
     display: flex;
