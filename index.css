@@ -2,7 +2,8 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 
 html {
-    scroll-behavior: smooth;background-color: #d289d6;
+    scroll-behavior: smooth;
+    background-color: #d289d6;
     background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
 }
 
@@ -177,6 +178,7 @@ nav {
     width: 90%;
     height: auto;
     margin: 5%;
+    box-shadow: 5px 10px 8px rgb(122, 122, 122, 0.5);
 }
 @media (min-width: 700px) {
     #menu {
