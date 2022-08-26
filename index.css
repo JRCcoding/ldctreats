@@ -20,7 +20,7 @@ body {
     right: 0;
     bottom: 0.5px;
     overflow-x: hidden; /* or any other value */
-     /* or any other value */
+    /* or any other value */
 }
 
 
@@ -203,14 +203,8 @@ nav {
 
 
 
-#flexattempt {
-    padding-top: 25%;
-}
-@media (min-width: 800px) {
-    #flexattempt {
-        padding-top: 5%;
-    }
-}
+
+
 
 .modal {
     text-align: center;
@@ -443,4 +437,7 @@ a {
     overflow: hidden;
 } */
 
+#flexattempt {
+    margin-top: -20%; 
+}
 
