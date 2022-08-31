@@ -39,14 +39,29 @@ nav {
     width: 100%;
 } */
 .nav-link {
+    background-color:rgba(139, 32, 122, 0.2);
     text-align: right;
 }
+
+a.nav-link {
+    padding: 15px;
+}
+
+
+
+#navul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+.nav-item {
+    margin-right: 5%;
+}
+
+
 @media (min-width: 800px) {
     .navbar {
         font-size: 30px;
-    }
-    .nav-link {
-        background-color:rgba(139, 32, 122, 0.2);
     }
     .nav-item {
         height: 100%;
@@ -445,13 +460,7 @@ a {
 
 
 
-#navul {
-    display: flex;
-    flex-direction: row;
-}
-.nav-item {
-    margin-right: 5%;
-}
+
 
 /*PAGES ALIGNMENT*/
 
@@ -461,12 +470,13 @@ a {
 
 #latestlink {
     padding-top: 50%;
+    
 }
 
 #contactlink {
-    padding-top: 60%;
+    padding-top: 80%;
 }
 
 #menulink {
-    padding-top: 60%;
+    padding-top: 100%;
 }
