@@ -32,7 +32,13 @@ nav {
     width: 100%;
     border-bottom: 1px solid black;
 }
-.navdiv {position: sticky; top: 0;z-index:99999;width:100%;}
+.navdiv {
+    position: sticky; 
+    top: 0;
+    z-index:99999;
+    width:100%;
+    justify-content: end;
+}
 /* .navbar {
     position: fixed;
     top: 0;
@@ -465,18 +471,23 @@ a {
 /*PAGES ALIGNMENT*/
 
 #nametitle {
-    padding-top: 20%;
+    padding-top: 40%;
 }
 
 #latestlink {
-    padding-top: 50%;
+    padding-top: 80%;
     
 }
 
 #contactlink {
-    padding-top: 80%;
+    padding-top: 60%;
 }
 
 #menulink {
-    padding-top: 100%;
+    margin-top: 100%;
+}
+
+
+.active {
+    background-color:rgba(89, 56, 90, 0.61);
 }
