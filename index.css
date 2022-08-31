@@ -33,11 +33,11 @@ nav {
     border-bottom: 1px solid black;
 }
 .navdiv {position: sticky; top: 0;z-index:99999;width:100%;}
-.navbar {
+/* .navbar {
     position: fixed;
     top: 0;
     width: 100%;
-}
+} */
 .nav-link {
     text-align: right;
 }
@@ -443,3 +443,30 @@ a {
     margin-top: -20%; 
 }
 
+
+
+#navul {
+    display: flex;
+    flex-direction: row;
+}
+.nav-item {
+    margin-right: 5%;
+}
+
+/*PAGES ALIGNMENT*/
+
+#nametitle {
+    padding-top: 20%;
+}
+
+#latestlink {
+    padding-top: 50%;
+}
+
+#contactlink {
+    padding-top: 60%;
+}
+
+#menulink {
+    padding-top: 60%;
+}

@@ -15,39 +15,39 @@
 
 </head>
 <body>
-  <div class="wrapper" style="overflow-y: hidden;">
+  <div class="wrapper">
   <div class="navdiv">
     <nav class="navbar navbar-expand-lg navbar-custom">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img id="logo" src="images/logo_transparent.png" alt="Lauryn's Next-Door Cottage Logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="#nametitle"><img id="logo" src="images/logo_transparent.png" alt="Lauryn's Next-Door Cottage Logo"></a>
+          <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-menu-down"></i>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navul">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#nametitle">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="latest.html">Latest Creations</a>
+                <a class="nav-link" href="#latestlink">Latest</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="#contactlink">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="menu.html">Menu</a>
+                <a class="nav-link" href="#menulink">Menu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About Lauryn</a>
+                <a class="nav-link" href="#aboutlink">About</a>
               </li>
 
              
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Order (coming soon)</a>
-              </li>
+              </li> -->
             </ul>
           </div>
-        </div>
+        <!-- </div> -->
       </nav>
     </div>
 
@@ -125,7 +125,136 @@
     </div>
 
     
+    
+
+
+
+
+<!--LATEST CREATIONS PAGE-->
+    <div id="latestlink">
+    <div id="flexattempt">
+      <!-- /////IMAGES NEED TO BE 650 X 650 TO FIT THE REST/////-->
+      <div class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-md-4">
+        <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2000">
+          <div class="carousel-inner">
+            <div class="carousel-item item">
+              <img src="images/portfolio/test1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item item">
+              <img src="images/portfolio/test2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item item">
+              <img src="images/portfolio/test3.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item item">
+              <img src="images/kit650-1.png" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item item">
+              <img src="images/alienuncut650-1.png" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item item active">
+              <img src="images/alienslice650-1.png" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item item">
+              <img src="images/batcupcakes650-1.png" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item item">
+              <img src="images/aliencut650-1.png" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item item">
+              <img src="images/frankencake650-1.png" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item item">
+              <img src="images/icecreamcake650-1.png" class="d-block w-100" alt="">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>  
+      <div class="col-lg-4"></div>
     </div>
+    </div>
+
+
+
+
+
+<!--CONTACT PAGE-->
+  <div id="contactlink">
+    <div id="welcome">
+      <h3>There are many ways to get in contact with me, but you can reach me at <a class="link" href="mailto:lncsstreats@gmail.com">lncsstreats@gmail.com</a>.</h3>
+
+      <h3>Other great ways include social media! Find me on <br><br> <a class="link smlink" href="https://www.instagram.com/lnc_sweetandsavorytreats/" target="_blank"><i class="bi bi-instagram"></i>Instagram</a><br><br> <a class="link smlink" href="https://www.facebook.com/Lauryns-Next-door-Cottage-Sweet-and-Savory-Treats-109923955158264" target="_blank"><i class="bi bi-facebook"></i>Facebook</a></h3>
+
+      <h3>Also by hitting the button on the bottom right corner of the page you can fill out a quick contact form and I will get back with you as soon as possible!</h3>
+      <section id="contactnowcontainer"><button type="button" id="contactnow" data-bs-toggle="modal" data-bs-target="#contactModal">Contact me now!</button></section>
+    </div>
+  </div>
+
+
+
+
+
+<!--MENU PAGE-->
+<div id="menulink">
+<div id="flexattempt">
+  <!-- /////IMAGES NEED TO BE 650 X 650 TO FIT THE REST/////-->
+  <div class="row">
+    <div class="col-lg-4"></div>
+    <div class="col-md-4">
+    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="99999999">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item item active">
+          <img src="images/laurynmenu_page1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item item">
+          <img src="images/laurynmenu_page2.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item item">
+          <img src="images/laurynmenu_page3.png" class="d-block w-100" alt="...">
+        </div>
+       
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div></div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
 
 </body>
