@@ -83,6 +83,9 @@ a.nav-link {
     width: 75px;
 }
 
+.navbar-brand {
+    background: none!important;
+}
 #logo {
     height: auto;
     width: 100px;
