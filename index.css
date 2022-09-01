@@ -506,6 +506,9 @@ a {
         padding-top: 35%;
     }
     #contactlink {
+        padding-top: 10%;
+    }
+    #menulink {
         padding-top: 0;
     }
 }
