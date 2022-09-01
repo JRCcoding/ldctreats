@@ -32,21 +32,42 @@ nav {
     width: 100%;
     border-bottom: 1px solid black;
 }
-.navdiv {position: sticky; top: 0;z-index:99999;width:100%;}
-.navbar {
+.navdiv {
+    position: sticky; 
+    top: 0;
+    z-index:99999;
+    width:100%;
+    justify-content: end;
+}
+/* .navbar {
     position: fixed;
     top: 0;
     width: 100%;
-}
+} */
 .nav-link {
+    background-color:rgba(139, 32, 122, 0.2);
     text-align: right;
 }
+
+a.nav-link {
+    padding: 15px;
+}
+
+
+
+#navul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+.nav-item {
+    margin-right: 5%;
+}
+
+
 @media (min-width: 800px) {
     .navbar {
         font-size: 30px;
-    }
-    .nav-link {
-        background-color:rgba(139, 32, 122, 0.2);
     }
     .nav-item {
         height: 100%;
@@ -261,7 +282,9 @@ nav {
     border: 8px solid #d289d6;
     background-color: #d196d3;
     filter: drop-shadow(0 8px 4px rgb(109, 61, 101));
+
 }
+
 #footer a {
     text-decoration: none;
     color: white;
@@ -292,7 +315,6 @@ nav {
     resize: vertical 
   }
   
-
   input[type=submit] {
     background-color: #04AA6D;
     color: white;
@@ -302,7 +324,6 @@ nav {
     cursor: pointer;
   }
   
-
   input[type=submit]:hover {
     background-color: #45a049;
   } */
@@ -441,3 +462,30 @@ a {
     margin-top: -20%; 
 }
 
+
+
+
+
+/*PAGES ALIGNMENT*/
+
+#nametitle {
+    padding-top: 40%;
+}
+
+#latestlink {
+    padding-top: 80%;
+    
+}
+
+#contactlink {
+    padding-top: 60%;
+}
+
+#menulink {
+    margin-top: 100%;
+}
+
+
+.active {
+    background-color:rgba(89, 56, 90, 0.61);
+}
