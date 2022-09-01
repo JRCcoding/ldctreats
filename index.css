@@ -57,21 +57,32 @@ a.nav-link {
 #navul {
     display: flex;
     flex-direction: row;
-    justify-content: space-around
+    justify-content: space-around;
+    position: fixed;
+    top: 5%;
+    right: 2%;
+}
+
+@media (min-width: 800px) {
+    #navul {
+        top: 2%;
+        right: 70%;
+    }
 }
 .nav-item {
-    margin-right: 5%;
+    margin-right: 10%;
+    border-right: 1px solid rgba(139, 32, 122, 0.4);
+    border-left: 1px solid rgba(139, 32, 122, 0.4);
 }
 
 
 @media (min-width: 800px) {
     .navbar {
-        font-size: 30px;
+        font-size: 40px;
+        padding-left: 200px;
     }
     .nav-item {
         height: 100%;
-        border-right: 1px solid rgba(139, 32, 122, 0.4);
-        border-left: 1px solid rgba(139, 32, 122, 0.4);
     } 
 } 
 .navbar-toggler.toggler-example {
@@ -485,6 +496,18 @@ a {
 
 #menulink {
     margin-top: 100%;
+}
+
+@media (min-width: 800px) {
+    #nametitle {
+        padding-top: 0;
+    }
+    #latestlink {
+        padding-top: 35%;
+    }
+    #contactlink {
+        padding-top: 0;
+    }
 }
 
 
