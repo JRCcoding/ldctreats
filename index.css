@@ -60,12 +60,13 @@ a.nav-link {
     justify-content: space-around;
     top: 5%;
     right: 2%;
+    padding-right: 3%;
 }
 
 @media (min-width: 800px) {
     #navul {
         top: 2%;
-        right: 10%;
+        right: 0%;
     }
 }
 .nav-item {
