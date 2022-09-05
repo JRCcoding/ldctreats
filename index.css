@@ -36,7 +36,6 @@ nav {
     top: 0;
     z-index:99999;
     width:100%;
-    justify-content: end;
 }
 /* .navbar {
     position: fixed;
@@ -57,8 +56,8 @@ a.nav-link {
 #navul {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     position: fixed;
+    justify-content: space-around;
     top: 5%;
     right: 2%;
 }
@@ -66,7 +65,7 @@ a.nav-link {
 @media (min-width: 800px) {
     #navul {
         top: 2%;
-        right: 70%;
+        right: 10%;
     }
 }
 .nav-item {
