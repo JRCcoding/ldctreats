@@ -34,7 +34,7 @@ nav {
 .navdiv {
     position: sticky; 
     top: 0;
-    z-index:99999;
+    z-index:9999;
     width:100%;
 }
 /* .navbar {
@@ -100,7 +100,8 @@ a.nav-link {
     height: auto;
     width: 100px;
     filter: drop-shadow(15px 15px 4px rgb(209, 150, 211, .6));
-
+    z-index: 99999;
+    opacity: 100%;
 }
 
 #main h5 {
